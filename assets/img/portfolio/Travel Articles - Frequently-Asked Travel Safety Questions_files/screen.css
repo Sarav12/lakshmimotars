@@ -1,0 +1,45 @@
+.sIFR-active h1
+{
+	visibility:hidden;
+	font-family:Verdana;
+}
+.sIFR-flash
+{
+	visibility:visible !important;
+	margin:0;
+	padding:0;
+}
+.sIFR-replaced,.sIFR-ignore
+{
+	visibility:visible !important;
+}
+.sIFR-alternate
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width:0;
+	height:0;
+	display:block;
+	overflow:hidden;
+}
+.sIFR-replaced div.sIFR-fixfocus
+{
+	margin:0pt; 
+	padding:0pt; 
+	overflow:auto; 
+	letter-spacing:0px; 
+	float:none;
+}
+
+/*
+Place CSS rules for to-be-replaced elements here. Prefix by .sIFR-active
+so they only apply if sIFR is active.
+
+Example:
+.sIFR-active h1
+{
+	font-family:Verdana;
+	visibility:hidden;
+}
+*/
